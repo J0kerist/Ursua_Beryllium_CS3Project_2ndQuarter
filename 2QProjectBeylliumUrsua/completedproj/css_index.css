@@ -1,0 +1,148 @@
+			body {
+				font-family: sans-serif;
+				font-size: 18px;
+				background-image: url(https://www.wallpapertip.com/wmimgs/167-1672928_minimalist-nature.jpg);
+				height:100%;
+				color: white;
+				background-repeat: no-repeat;
+			}
+			header { 
+				padding: 8px; 
+				font-size: 18px;
+				font-family: Garamond;
+				width: 100%;
+				background-image: url(https://i.pinimg.com/originals/45/f5/d0/45f5d09bbf47aa81da0156929a6bb141.jpg);
+				color: white;
+				background-size:cover;
+				display: flex;
+			}
+			nav {
+				width: 100%;
+				background-color:#555555;
+				color:white;
+				padding: 15px;
+				text-decoration: none;
+				font-size: 15px;
+			}
+			a{
+				padding: 5px;
+				cursor: pointer;
+			}
+			nav a {
+				
+				text-decoration: none;
+				color: white;
+			}
+			nav a:hover {
+				background-color:#343434;
+				color:grey;
+				padding: 15px;
+			}
+			nav a:active {
+				background-color:#29ab87;
+				color:black;
+				padding: 15px;
+			}
+			li a:link {
+				color: white;
+				text-decoration:none;
+			}
+			li a:visited{
+				color:#b3ffda; 
+			}
+			li a:hover{
+				color:#29ab87;
+			}
+			
+			h1 {
+				text-align: center;
+			}
+			img{
+				height: 350px;
+				width:350px;
+				padding: 10px;
+				float: left;
+				display: block;
+			}
+			.column1{
+				margin-left: 10%;
+
+			}
+			.column1 ul {
+				float:left;
+				margin-left:30%;
+				margin-bottom: 20px;
+			}
+			.column1 li {
+				padding: 5px;
+			}
+			.column1 a {
+				text-decoration: none;
+				color: white;
+			}
+			.column2 ul{
+				float:right;
+				margin-right: 20%;
+				margin-bottom: 20px;
+			}
+			.column2 li{
+				padding: 5px;
+			}
+			.div2 {
+				padding: 10px; 
+				font-size: 18px;
+				font-family: sans-serif;
+				text-align: left;
+				clear:right;
+				width: 100%;
+				background-color:#080808;
+				color: white;
+			}
+			.div2 ul{
+				list-style-type: none;
+			}
+			.div2 li{
+				padding: 5px;
+			}
+			.sprite1 {
+				background: url(icon.png) no-repeat -182px -91px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite1:hover {
+				background: url(icon.png) no-repeat -182px -17px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite2 {
+				background: url(icon.png) no-repeat -296px -91px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite2:hover {
+				background: url(icon.png) no-repeat -296px -16px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite3 {
+				background: url(icon.png) no-repeat -412px -91px;
+				width: 32px;
+				height: 32px;
+				border-radius:55%;
+				display: inline-block;
+			}
+			.sprite3:hover {
+				background: url(icon.png) no-repeat -412px -16px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}

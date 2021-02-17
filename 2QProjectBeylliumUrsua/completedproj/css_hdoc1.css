@@ -1,0 +1,127 @@
+			body {
+			font-family: sans-serif;
+			font-size: 18px;
+			background-color:	#101010;
+			background-image: url(https://www.wallpapertip.com/wmimgs/167-1672928_minimalist-nature.jpg);
+			height:100%;
+			color: white;
+			background-repeat: no-repeat;
+			color: white;
+			}
+			header { 
+				padding: 8px; 
+				font-size: 18px;
+				font-family: Garamond;
+				width: 100%;
+				background-image: url(https://i.pinimg.com/originals/45/f5/d0/45f5d09bbf47aa81da0156929a6bb141.jpg); 
+				color: white;
+				background-size:cover;
+				display: flex;
+			}
+			
+			nav{
+				width: 100%;
+				background-color:#555555;
+				color:white;
+				padding: 15px;
+				text-decoration: none;
+				font-size: 15px;
+			
+			}
+			a {
+				padding: 5px;
+				cursor: pointer;
+			}
+			nav a {
+				
+				text-decoration: none;
+				color: white;
+			}
+			nav a:hover {
+				background-color:#343434;
+				color:grey;
+				padding: 15px;
+			}nav a:active {
+				background-color:#29ab87;
+				color:black;
+				padding: 15px;
+			}
+			li a:link{
+				text-decoration:none;
+			}
+			img	{
+				height: 400px;
+				width:450px;
+				border: 5px solid black;
+				margin: auto;
+				float: center;
+				display: block;
+			}		
+			.essay{
+				text-align:justify;
+				font-size: 18px;
+				font-family: sans-serif;
+				padding:20px;
+				margin:auto;
+			}
+			.essay h2 {
+				color: black;
+			}
+			.div2 {
+				padding: 10px; 
+				font-size: 18px;
+				font-family: sans-serif;
+				text-align: left;
+				clear:right;
+				width: 100%;
+				background-color:#080808;
+				color: white;
+			}
+			.div2 ul{
+				list-style-type: none;
+			}
+			.div2 li{
+				padding: 5px;
+			}
+			.sprite1 {
+				background: url(icon.png) no-repeat -182px -91px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite1:hover {
+				background: url(icon.png) no-repeat -182px -17px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite2 {
+				background: url(icon.png) no-repeat -296px -91px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite2:hover {
+				background: url(icon.png) no-repeat -296px -16px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
+			.sprite3 {
+				background: url(icon.png) no-repeat -412px -91px;
+				width: 32px;
+				height: 32px;
+				border-radius:55%;
+				display: inline-block;
+			}
+			.sprite3:hover {
+				background: url(icon.png) no-repeat -412px -16px;
+				width: 33px;
+				height: 32px;
+				border-radius:50%;
+				display: inline-block;
+			}
